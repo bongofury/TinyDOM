@@ -1,0 +1,27 @@
+{
+  "name": "tinydom",
+  "version": "0.0.1",
+  "description": "A tiny DOM utils collection, using Vanilla JS and ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongofury/tinydom.git"
+  },
+  "keywords": [
+    "nojquery"
+  ],
+  "author": "Edoardo Bianchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bongofury/tinydom/issues"
+  },
+  "homepage": "https://github.com/bongofury/tinydom#readme",
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.1.3",
+    "eslint-plugin-import": "2.2.0"
+  }
+}
