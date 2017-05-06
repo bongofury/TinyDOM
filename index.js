@@ -16,6 +16,11 @@ function _outerSize(el, height, margin = false) {
 	return size;
 }
 
+function isVisible(el) {
+	return el && el.offsetWidth > 0 && el.offsetHeight > 0;
+}
+
+
 function outerHeight(el, margin = false) {
 	return _outerSize(el, true, margin);
 }
@@ -25,6 +30,7 @@ function outerWidth(el, margin = false) {
 }
 
 export default {
+	isVisible,
 	outerHeight,
 	outerWidth,
 };
